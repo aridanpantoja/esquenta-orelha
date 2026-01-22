@@ -8,8 +8,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Private Chat",
-  description: "A secure, private, self-destructive chat application",
+  title: "Esquenta Orelha",
+  description: "O canal perfeito para espalhar as suas fofocas",
 };
 
 export default function RootLayout({
