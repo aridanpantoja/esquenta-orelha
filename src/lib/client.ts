@@ -4,4 +4,4 @@ import { app } from '../app/api/[[...slugs]]/route'
 export const client =
     typeof window === "undefined"
         ? treaty(app).api
-        : treaty<typeof app>(process.env.NEXT_PUBLIC_API_URL!).api
+        : treaty<typeof app>(window.location.origin).api
